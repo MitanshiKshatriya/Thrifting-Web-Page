@@ -1,0 +1,167 @@
+header{
+  display:flex;
+  justify-content: space-between;
+  position:fixed;
+  top:0;
+  background:white;
+  position:fixed;
+}
+ul{
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link{
+  padding: 20px 50px;
+  margin: -10px 70px;
+  text-decoration:none;
+  color:black;
+  font-style: 'Lato',sans-serif;
+  font-weight:bold;
+  font-size: 25px;
+}
+a:hover{
+  background:#FF0040;/*#4CAF50; #D8D8D8;*/
+  color:white;
+}
+#header-img{
+  width:175px;
+  margin-right: 215px;
+}
+iframe{
+  display:block;
+  margin: 100px 500px;
+ }
+form{
+  
+  margin: 0 auto;
+  width:500px;
+  background-color:#FF0040;
+    padding:50px 500px;
+  text-align:center;
+}
+#email{
+  
+  width: 100%;
+  padding: 20px 40px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+.btn{
+  background-color: black;/*#D8D8D8;*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:16px;
+  cursor:pointer;
+  border-radius:40px;
+}
+.clothes{
+  margin: 100px;
+}
+#climg{
+  
+  height:500px;
+}
+.desc{
+  font-weight:900;
+  font-family:sans-serif;
+}
+/*blockquote*/
+.quote{
+  margin:100px 0 100px 0;
+}
+blockquote {
+    margin: 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 1000;
+  background:#FF0040;
+  color:white;
+  padding:40px;
+  width:85%;
+  
+}
+
+blockquote p {
+    text-align:center;
+    padding: 15px;
+    /*background: #eee;*/
+    border-radius: 5px;
+  font-size:100px;
+}
+blockquote footer{
+  text-align:center;
+  font-size:25px;
+  margin-top:-100px;
+  margin-bottom:200px;
+  /*padding-bottom:20px;*/
+}
+
+
+
+/*blockquote*/
+@media(max-width:650px){
+  header{
+    position:relative;
+  }
+  #header-img{
+    margin:0 auto;
+  }
+  blockquote{
+    width:100%;
+    height:150px;
+    margin:10px;
+    padding:1px;
+  }
+  blockquote p{
+    font-size:30px;
+    
+  }
+  blockquote footer{
+    margin-top:-10px;
+    font-size:15px;
+  }
+  header{
+    display:block;
+    text-align:center;
+    align-items:center;
+  }
+  ul{
+    display:block;
+    text-align:center;
+    align-items:center;
+  }
+  .nav-link{
+    font-size:20px;
+    padding:10px;
+    margin:30px;
+    display:block;
+  }
+  #climg{
+    height:400px;
+  }
+  .cli{
+    margin:25px 0;
+  }
+  form{
+    width:100%;
+    padding:10px 0 10px 0;
+  }
+  #email{
+    padding:5px 10px;
+    width:70%;
+  }
+  .btn{
+    padding:10px;
+  }
+  iframe{
+    width:90%;
+    margin:10px;
+    padding:0;
+  }
+}
